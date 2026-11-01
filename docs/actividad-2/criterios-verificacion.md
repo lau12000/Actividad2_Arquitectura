@@ -18,6 +18,8 @@ Definir criterios que permitan comprobar si la estructura arquitectónica propue
 | CV-08 | Se identifican las condiciones que justificarían revisar la decisión. | Criterios de revisión del ADR-001. |
 | CV-09 | Los documentos están organizados en el repositorio de GitHub y tienen historial de cambios. | Repositorio y registro de commits. |
 | CV-10 | La sustentación explica los requisitos prioritarios, las alternativas comparadas y la decisión tomada. | Enlace al video publicado. |
+| CV-11 | Todos los requisitos funcionales del catálogo aparecen en la matriz de priorización. | Catálogo de requisitos y matriz de priorización. |
+| CV-12 | Los documentos mantienen coherencia entre los requisitos, la comparación y la decisión arquitectónica. | Revisión conjunta de los documentos de la actividad. |
 
 ## 3. Validación de los escenarios de calidad
 

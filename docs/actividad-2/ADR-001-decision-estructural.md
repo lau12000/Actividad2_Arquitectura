@@ -67,6 +67,17 @@ Esta alternativa permite organizar los procesos de pedidos, inventario, entregas
 
 La decisión se ajusta a la información disponible y podrá revisarse cuando existan datos reales sobre el crecimiento, el rendimiento y las necesidades operativas.
 
+### 4.1 Resultado de la evaluación
+
+La comparación de alternativas obtuvo los siguientes resultados mediante una evaluación ponderada de criterios:
+
+- Monolito modular: 4,35 sobre 5.
+- Arquitectura distribuida: 2,85 sobre 5.
+
+Estos resultados respaldan la selección del monolito modular, teniendo en cuenta que el costo, la complejidad operativa y la rapidez de implementación tienen mayor importancia en la etapa inicial del proyecto.
+
+La evaluación corresponde a una valoración arquitectónica preliminar y no a mediciones realizadas sobre un sistema implementado.
+
 ## 5. Consecuencias y trade-offs
 
 - Se prioriza la simplicidad operativa inicial.
@@ -93,7 +104,9 @@ La decisión deberá revisarse si:
 3. Los fallos de un módulo afectan repetidamente a otros.
 4. Se requiere desplegar diferentes dominios de forma independiente.
 5. El crecimiento de la operación justifica la complejidad adicional de una arquitectura distribuida.
+6. Se identifican necesidades de integración o crecimiento que no puedan atenderse adecuadamente mediante la estructura modular actual.
 
+Cualquier cambio hacia una arquitectura distribuida deberá justificarse mediante mediciones, necesidades operativas y una nueva decisión arquitectónica documentada.
 ## 8. Conclusión
 
 El monolito modular con límites claros se propone como estructura inicial para la Plataforma de Gestión Logística de Última Milla. La decisión busca responder a las necesidades actuales del negocio y reducir los riesgos de complejidad prematura.

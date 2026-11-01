@@ -22,6 +22,29 @@ Las alternativas evaluadas son:
 | Escalabilidad | La aplicación se escala inicialmente como una unidad. | Permite escalar servicios de manera independiente. |
 | Alineación con el negocio | Adecuada para comenzar centralizando la información logística. | Puede ser adecuada si el crecimiento y las necesidades operativas justifican la separación de servicios. |
 
+### 2.1 Matriz de evaluación de alternativas
+
+Para complementar la comparación se establece una evaluación cualitativa utilizando una escala de 1 a 5, donde 1 representa una condición desfavorable y 5 una condición muy favorable.
+
+Los criterios se valoran teniendo en cuenta las necesidades identificadas en el diagnóstico del negocio.
+
+| Criterio | Peso | Monolito modular | Arquitectura distribuida |
+|---|---:|---:|---:|
+| Costo inicial | 20 % | 5 | 2 |
+| Complejidad operativa | 20 % | 5 | 2 |
+| Rapidez de implementación | 15 % | 5 | 2 |
+| Facilidad de mantenimiento | 15 % | 4 | 4 |
+| Escalabilidad independiente | 10 % | 2 | 5 |
+| Riesgo operativo inicial | 10 % | 4 | 3 |
+| Alineación con el negocio actual | 10 % | 5 | 3 |
+| **Resultado ponderado** | **100 %** | **4,35** | **2,85** |
+
+La evaluación muestra que el monolito modular obtiene una puntuación superior debido a su menor complejidad inicial, menor costo operativo estimado y facilidad para construir una primera versión centralizada.
+
+La arquitectura distribuida presenta ventajas en escalabilidad independiente y evolución de servicios, pero estas características no justifican por ahora su mayor complejidad para el contexto identificado.
+
+Los valores corresponden a una valoración inicial para apoyar la decisión arquitectónica y no a resultados de mediciones reales.
+
 ## 3. Alternativa A: Monolito modular con límites claros
 
 ### Ventajas

@@ -18,6 +18,7 @@ Esta matriz permite priorizar los requisitos de la Plataforma de Gestión Logís
 | RF-08 | Gestionar incidencias | Alta | Facilita la atención de problemas y reclamos. | Requiere relacionar incidencias con pedidos. | Media |
 | RF-09 | Enviar notificaciones | Media | Mantiene informados a los usuarios. | Requiere integración con un servicio de notificaciones. | Media |
 | RF-10 | Integrar sistemas externos | Media | Facilita el intercambio de información. | Requiere definir interfaces e integración entre sistemas. | Alta |
+| RF-11 | Consultar información logística por roles | Alta | Permite que cada usuario acceda a la información necesaria para realizar sus funciones. | Requiere definir permisos y separar los accesos según los roles del sistema. | Media |
 | RNF-01 | Rendimiento | Alta | Reduce las demoras en las consultas. | Influye en las consultas y en la medición de tiempos. | Media |
 | RNF-02 | Seguridad | Alta | Protege la información de la empresa y los clientes. | Requiere controlar los permisos de acceso. | Alta |
 | RNF-03 | Disponibilidad | Alta | Facilita la continuidad de la operación. | Influye en la gestión de fallos y recuperación. | Media |
